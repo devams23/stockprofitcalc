@@ -1,29 +1,94 @@
+.stock-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #222;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
 .input-wrapper {
-    width: 50%;
-    height: 2.5rem;
-    border: none;
-    border-radius: 10px;
-    padding: 0 15px;
-    box-shadow: 0px 0px 8px #ddd;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #ccc;
+}
+
+.search-input, .stock-input {
+  padding-left: 30px;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.search-input:focus, .stock-input:focus {
+  background-color: #444;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  outline: none;
+}
+
+.stock-label {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #ccc;
+}
+
+.duration-buttons {
+  display: flex;
+  gap: 10px;
+
+}
+
+.duration-button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #ffffff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
   
-  input {
-    background-color: transparent;
-    border: none;
-    height: 100%;
-    font-size: 1.25rem;
+}
+
+.duration-button:hover{
+  background-color: #444;
+ 
+}
+.duration-button.active {
+  background-color: brown;
+  
+}
+.duration-button:focus {
+  outline: none;
+}
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+  .stock-form {
+    max-width: 300px;
+  }
+
+  .duration-buttons {
+    flex-direction: row;
+  }
+
+  .duration-button {
     width: 100%;
-    margin-left: 5px;
+    margin-bottom: 10px;
   }
-  
-  input:focus {
-    outline: none;
-  }
-  
-  #search-icon {
-    color: royalblue;
-  }
+}
