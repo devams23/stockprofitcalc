@@ -87,9 +87,13 @@ const getColor = (value) => {
             )}
           </div>
           <div>
-
+            
           {stockdata.length> 0 && (
+            
             <div>
+                      <h1 className="text-4xl text-center text-white font-mono rounded-lg shadow-lg px-6 py-3" style={{ textShadow: '2px 2px 4px rgba(0, 190, 100, 0.9)' }}>
+  Your Profit Chart!
+</h1>
   <ResponsiveContainer width="100%" height={300}>
     <AreaChart
 
@@ -109,7 +113,7 @@ const getColor = (value) => {
         </linearGradient>
       </defs>
       <XAxis dataKey="date" />
-      <YAxis />
+      <YAxis label="Height" />
       <CartesianGrid strokeDasharray="3" />
       <Tooltip />
 
