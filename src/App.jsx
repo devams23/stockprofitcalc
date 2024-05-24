@@ -75,9 +75,7 @@ const getColor = (value) => {
         value={{ results, changeresults, stocks, changestocks, changesymbol , duration , changeduration}}
       >
         <div className="App">
-        <h1 className="text-4xl text-center text-white font-mono rounded-lg shadow-lg px-6 py-3" style={{ textShadow: '3px 0px 0px rgba(255, 10, 10, 0.5)' }}>
-  Hey, Investor!
-</h1>
+
 
 
           <div className="search-bar-container">
