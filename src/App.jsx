@@ -111,7 +111,7 @@ const getColor = (value) => {
         </linearGradient>
       </defs>
       <XAxis dataKey="date" />
-      <YAxis label="Height" />
+      <YAxis />
       <CartesianGrid strokeDasharray="3" />
       <Tooltip />
 
