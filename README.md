@@ -24,7 +24,7 @@ Welcome to **StockProfitCalc**! This tool is designed to help you visualize the 
 ## 🛠️ Installation
 
    ```bash
-   git clone https://github.com/yourusername/stockprofitcalc.git
+   git clone https://github.com/devams23/stockprofitcalc.git
    cd stockprofitcalc
    npm install
   ```
