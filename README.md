@@ -9,7 +9,9 @@ Welcome to **StockProfitCalc**! This tool is designed to help you visualize the 
   - **6 Months**
   - **1 Year**
   - **Year-to-Date (YTD)**
+  <img src = "./p3.png"/>
 - **Multi-Stock Search**: Search and compare multiple stocks across international exchanges.
+  <img src = "./p2.png"/>
 - **User-Friendly Interface**: Simple and intuitive design to ensure ease of use.
 - **Real-Time Data**: Updated with the latest market information to provide accurate profit calculations.
 
