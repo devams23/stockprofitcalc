@@ -11,7 +11,7 @@ Welcome to **StockProfitCalc**! This tool is designed to help you visualize the 
   <img src = "./p3.png"/>
   <br/>
   
-  ### Multi-Stock Search: Search and compare multiple stocks across international exchanges.
+  ### Multi-Stock Search: Search multiple stocks across international exchanges.
   <br/>
   <img src = "./p2.png"/>
   <br/>
