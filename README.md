@@ -3,17 +3,23 @@
 Welcome to **StockProfitCalc**! This tool is designed to help you visualize the potential profits of various stocks over different time periods. Whether you're an investor keeping track of your portfolio or a trader looking for the next big move, StockProfitCalc has you covered.
 
 ## 🚀 Features
-
-- **Profit Chart Visualization**: Get a clear picture of your stock's performance over multiple time frames:
+  ### Profit Chart Visualization: Get a clear picture of your stock's performance over multiple time frames:
   - **1 Month**
   - **6 Months**
   - **1 Year**
   - **Year-to-Date (YTD)**
   <img src = "./p3.png"/>
-- **Multi-Stock Search**: Search and compare multiple stocks across international exchanges.
+  <br/>
+  
+  ### Multi-Stock Search: Search and compare multiple stocks across international exchanges.
+  <br/>
   <img src = "./p2.png"/>
-- **User-Friendly Interface**: Simple and intuitive design to ensure ease of use.
-- **Real-Time Data**: Updated with the latest market information to provide accurate profit calculations.
+  <br/>
+  
+  ### User-Friendly Interface: Simple and intuitive design to ensure ease of use.
+  <br/>
+  
+  ### Real-Time Data: Updated with the latest market information to provide accurate profit calculations.
 
 ## 🛠️ Installation
 
